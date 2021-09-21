@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
-import Map from './Map';
+// import Map from './Map';
 import Form from 'react-bootstrap/Form';
 import Container from 'react-bootstrap/Container';  
 
@@ -56,7 +56,7 @@ class App extends React.Component {
                 </Button>
               </Form>
             </Container>
-            {this.state.location.place_id &&
+            {/* {this.state.location.place_id &&
               <Map
                 displayName={this.state.location.display_name}
                 longitude={this.state.longitude}
@@ -66,7 +66,7 @@ class App extends React.Component {
             }
             {
             this.state.error && <h2> Please enter valid entry.</h2>
-            } 
+            }  */}
 
       </div>
       </>
