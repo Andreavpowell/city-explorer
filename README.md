@@ -29,7 +29,6 @@ This project utilized:
 - [React](https://reactjs.org/)
 - [Bootstrap](https://react-bootstrap.github.io/)
 - [Axios](https://axios-http.com/)
-- [Location IQ Geocoding APIs](https://locationiq.com/)
 
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
